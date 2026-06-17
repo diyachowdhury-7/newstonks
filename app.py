@@ -152,7 +152,7 @@ st.markdown(f"""
 col_title, col_toggle = st.columns([6, 1])
 with col_title:
     st.markdown(f"<h1 style='margin-bottom:0'>📈 Stock Sentiment Analyzer</h1>", unsafe_allow_html=True)
-    st.markdown(f"<p style='color:{subtext}; margin-top:4px'>News sentiment vs price movement — FinBERT + Finnhub</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='color:{subtext}; margin-top:4px'>News sentiment vs price movement </p>", unsafe_allow_html=True)
 
 with col_toggle:
     st.markdown("<br>", unsafe_allow_html=True)
@@ -187,7 +187,7 @@ with st.sidebar:
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown(f"""
     <div style='font-size:12px; color:{subtext}; line-height:2'>
-        📰 Data: Finnhub News API<br>
+        📰 Data: Alpha Vantage News Sentiment API<br>
         🤖 Model: ProsusAI/FinBERT<br>
         💹 Prices: yfinance<br>
         📅 Weekend sentiment rolled into Monday
