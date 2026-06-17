@@ -1,0 +1,11 @@
+streamlit
+yfinance
+transformers
+torch
+scipy
+pandas
+matplotlib
+seaborn
+requests
+python-dotenv
+finnhub-python
