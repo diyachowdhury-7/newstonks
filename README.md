@@ -1,5 +1,7 @@
 # newstonks 📰📈
 
+**Live Demo**: https://newstonks-cwdfif8nmxvpqienfk6iuu.streamlit.app/
+
 A news sentiment analysis web app that scrapes headlines for any stock ticker, classifies them as positive/negative/neutral using a fine-tuned NLP model, and plots sentiment against price movement over time with a lag correlation analysis to test whether yesterday's news predicts today's returns.
 
 You enter a ticker and date range: the app fetches real headlines from Alpha Vantage, runs each one through FinBERT, aggregates daily sentiment scores, and overlays them on the stock's closing price. A second tab runs a statistical lag analysis to see if sentiment carries predictive signal.
