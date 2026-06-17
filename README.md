@@ -28,41 +28,27 @@ Unlike generic sentiment tools trained on tweets or reviews, this uses FinBERT, 
 - Tab 2: horizontal bar chart of correlation vs lag, color-coded by statistical significance
 
 ## Project structure
+
+```
 newstonks/
-
 ├── app.py
-
 ├── .env
-
 ├── requirements.txt
-
 ├── README.md
-
 ├── .streamlit/
-
 │   └── config.toml
-
 ├── src/
-
-│   ├── init.py
-
+│   ├── __init__.py
 │   ├── fetch_news.py
-
 │   ├── sentiment.py
-
 │   ├── price.py
-
 │   ├── merge.py
-
 │   └── analysis.py
-
 └── components/
-
-├── init.py
-
-├── chart_overlay.py
-
-└── chart_lag.py
+    ├── __init__.py
+    ├── chart_overlay.py
+    └── chart_lag.py
+```
 
 ## Stack
 
